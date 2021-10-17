@@ -1,0 +1,8 @@
+"use strict";
+// Array
+let color = ["red", "green", "blue"];
+let numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// Flexible Types
+const importantDates = [];
+importantDates.push(new Date());
+importantDates.push("2021-10-16");
