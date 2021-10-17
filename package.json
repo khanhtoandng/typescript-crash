@@ -1,0 +1,26 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "learn typescript with enouvo",
+  "main": "index.js",
+  "scripts": {
+    "start:db": "json-server -w db.json",
+    "start:parcel": "parcel index.html",
+    "test": "jest --coverage"
+  },
+  "author": "Toan Huynh",
+  "license": "MIT",
+  "dependencies": {
+    "@types/faker": "^5.5.8",
+    "@types/google.maps": "^3.45.6",
+    "axios": "^0.21.4",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "typescript": "^4.4.3"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
+}
