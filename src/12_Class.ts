@@ -34,6 +34,7 @@ interface HasFormatter {
 
 export class Payment implements HasFormatter {
   constructor(
+    // Modifier
     readonly recipient: string,
     private details: string,
     public amount: number

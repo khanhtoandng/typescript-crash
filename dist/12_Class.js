@@ -28,7 +28,9 @@ class Car2 extends Vehicle {
 const newCar = new Car2(4, "red");
 newCar.startDrivingProcss();
 class Payment {
-    constructor(recipient, details, amount) {
+    constructor(
+    // Modifier
+    recipient, details, amount) {
         this.recipient = recipient;
         this.details = details;
         this.amount = amount;
